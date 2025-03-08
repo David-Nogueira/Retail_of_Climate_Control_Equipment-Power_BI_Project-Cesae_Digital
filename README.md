@@ -33,8 +33,8 @@ The goal of the analysis is to determine whether more extreme weather conditions
 
 <p align="justify">
 <strong>Internal data sources provided by the company:</strong>
-  <ul style="text-align: justify;">
-   <li>Store table – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/Lojas.csv" download>Lojas (Excel file)</a></li>
+  <ul align="justify">
+   <li>Store table – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/Lojas.csv" download>Excel file "Lojas"</a></li>
   <li>Sales volume of climate control equipment per store – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/VolumeVendas.csv" download>Excel file “VolumeVendas”</li>
   <li>Quantities of products sold per store – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/quant_vendida.csv" download>Excel file “quant_vendida”</li>
   <li>Fixed costs per store related to the maintenance of sales spaces for these products – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/custosfixos.csv" download>Excel file “custosfixos”</li>
@@ -42,26 +42,116 @@ The goal of the analysis is to determine whether more extreme weather conditions
   </ul>
 </p>
 
-https://github.com/David-Nogueira/Steam_Games_2013_to_2023-R_Project-Cesae_Digital/raw/main/Steam%20Games%202013%20to%202023%20-%20R%20Project%20-%20Cesae%20Digital.R
+<p align="justify">
+<strong>External data sources available:</strong>
+  <ul align="justify">
+   <li>Climate conditions by region – <a href="https://www.dadosmundiais.com/europa/portugal/clima.php" download>Source</a></li>
+  <li>Purchasing power table (2021) – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/pordata.xlsx" download>Excel file "pordata"</li>
+  <li>Municipality-to-region mapping table – <a href="https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_de_Portugal_por_NUTS,_distritos_e_ilhas" download>Source</li>
+  <li>Resident population table (2021) – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/popula%C3%A7%C3%A3o%20residente%20(em%202021).xlsx" download>Excel file "população residente (em 2021)"</li>
+  </ul>
+</p>
 
-<ul style="text-align: justify;">
-  <li><strong>Table with actual values:</strong></li>
-</ul>
+<p align="justify">
+<strong>Note</strong>: The Excel files were extracted from the Pordata website. However, one of the links is no longer active, so I have included the extracted files from the site for reference.
+</p>
+
+<p align="justify">
+<strong>Possible analytical approaches:</strong>
+  <ul align="justify">
+  <li>Summing values by store may be useful</li>
+  <li>Note that the Purchasing Power Index is based on a scale where 100 represents the national average. A value above 100 means the municipality has a purchasing power      above the national average. How can this scale be adapted to other variables?</li>
+  <li>Which variables should be considered in a regional analysis? And at the municipal level?</li>
+  <li>How would you calculate the profit margin for these products in each store?</li>
+  <li>How would you incorporate it into comparisons with other variables?</li>
+  </ul>
+</p>
+
+<p align="justify">
+<strong>Reporting Considerations:</strong>
+  <ul align="justify">
+  <li>What tables should be included in the report to facilitate data interpretation?</li>
+  <li>How many report pages should be created? For what purpose?</li>
+  <li>What types of charts would be most useful?</li>
+  </ul>
+</p>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3+-+Project+Description" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=3+-+Key+Factors+in+Sales+Success:+Climate,+Purchasing+Power,+or+Population?" alt="Typing SVG" /><br><br>
+</a>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.1+-+Do+harsher+climate+conditions+promote+item+sales+in+each+location,+or+are+purchasing+power+and+population" alt="Typing SVG" />
+</a>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=the+sole+determinants+of+sales+success+or+failure?" alt="Typing SVG" />
 </a>
 
 <p align="justify">
-The R programming project aims to conduct a comprehensive analysis of game data available on the Steam platform from 2013 to 2023. Steam is one of the largest digital distribution platforms for PC games and software, offering a wide variety of titles across different genres.<br>
-The analyzed data consists of a set of relevant information about the games, including the game title, release date, price, number of positive and negative reviews, category identification (app_id), and the maximum number of users.<br>
-The main objective of the project is to explore this data to identify interesting insights into the Steam gaming market over the years.<br>
-The project includes data visualization through charts and tables to facilitate interpretation and communication of the results. Additionally, data preprocessing and cleaning techniques (Excel, Power BI, and R) were used to ensure the quality and integrity of the analyses.<br>
-Finally, the goal is to provide valuable insights for game and software developers, market analysts, and gaming industry enthusiasts, contributing to a deeper understanding of the gaming landscape on the Steam platform over the years.
+<strong>Influence of Climatic Conditions on Sales by Region:</strong>
+  <ul align="justify">
+  <li><ins>Maximum Night Temperature</ins>:</li>
+  The region with the highest average sales is Alentejo, which has the second-lowest night temperature (10.4 ºC). However, the second and third regions with the highest 
+  average sales are Madeira and the Azores, which have the highest night temperature values (16.9 ºC for Madeira and 15.6 ºC for the Azores). Therefore, it is concluded 
+  that the maximum night temperature does not influence sales volume, as the temperature difference between the first and second regions with the highest average sales 
+  exceeds 6ºC.
+  </ul>
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/70600611-d2cb-4e34-b3f9-264f7bef2d8f" width="50%">
+</p>
+
+<p align="justify">
+  <ul align="justify">
+  <li><ins>Maximum Daytime Temperature</ins>:</li>
+  The two regions with the highest sales volume are Alentejo and Madeira, which also have the highest daytime temperatures (23.5ºC in Alentejo and 22.5ºC in Madeira).<br>
+  Even considering that the third region with the highest average sales volume, the Azores, has the second lowest daytime temperature, the data from Alentejo and Madeira 
+  suggest that the higher the maximum daytime temperature, the greater the sales volume.<br>
+  It is observed that the best-selling equipment in Alentejo is the Split Air Conditioner, which makes sense given that it is the region with the highest maximum daytime 
+  temperature. In Madeira, the best-selling equipment is fans, which is also logical as Madeira has the second highest maximum daytime temperature.
+  </ul>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7625f0ab-f6c4-4a72-9aa4-0dd7ac301ca3" width="50%">
+</p>
+
+<p align="justify">
+  <ul align="justify">
+  <li><ins>Humidity</ins>:</li>
+  As previously observed, the region with the highest average sales volume is Alentejo, followed by Madeira. It is verified that these are the regions with the lowest 
+  humidity percentages (Alentejo has 70% humidity and Madeira 71% humidity).<br>
+  Even considering that the third region with the highest average sales volume is the Azores, which has the highest humidity percentage. Based on the data from Alentejo and 
+  Madeira, it is observed that the lower the humidity percentage, the higher the sales volume.<br>
+  It is noted that the second most-sold equipment in Alentejo is dehumidifiers, which does not make sense as it is the region with the lowest percentage. Furthermore, 
+  Alentejo is the region with the highest average sales of dehumidifiers, despite being the region with the lowest humidity percentage.
+  </ul>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1931dcf6-68f1-4479-95c5-214feff8fa20" width="50%">
+</p>
+
+<p align="justify">
+  <ul align="justify">
+  <li><ins>Rainy Days and Precipitation</ins>:</li>
+  As previously observed, the region with the highest average sales volume is Alentejo, followed by Madeira. It is verified that these are the regions with the lowest 
+  humidity percentages (Alentejo has 70% humidity and Madeira 71% humidity).<br>
+  Even considering that the third region with the highest average sales volume is the Azores, which has the highest humidity percentage. Based on the data from Alentejo and 
+  Madeira, it is observed that the lower the humidity percentage, the higher the sales volume.<br>
+  It is noted that the second most-sold equipment in Alentejo is dehumidifiers, which does not make sense as it is the region with the lowest percentage. Furthermore, 
+  Alentejo is the region with the highest average sales of dehumidifiers, despite being the region with the lowest humidity percentage.
+  </ul>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1931dcf6-68f1-4479-95c5-214feff8fa20" width="50%">
+</p>
+
 
 <h2 align="left">
 </h2>
