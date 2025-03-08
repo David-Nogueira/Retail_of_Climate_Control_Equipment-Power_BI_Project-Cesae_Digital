@@ -34,7 +34,7 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <p align="justify">
 <strong>Internal data sources provided by the company:</strong>
   <ul style="text-align: justify;">
-  <li>Store table – Excel file “Lojas”</li>
+   <li>Store table – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/Lojas.csv" download>Lojas (Excel file)</a></li>
   <li>Sales volume of climate control equipment per store – Excel file “VolumeVendas”</li>
   <li>Quantities of products sold per store – Excel file “quant_vendida”</li>
   <li>Fixed costs per store related to the maintenance of sales spaces for these products – Excel file “custosfixos”</li>
@@ -42,7 +42,7 @@ The goal of the analysis is to determine whether more extreme weather conditions
   </ul>
 </p>
 
-
+https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/Lojas.csv
 
 
 <ul style="text-align: justify;">
