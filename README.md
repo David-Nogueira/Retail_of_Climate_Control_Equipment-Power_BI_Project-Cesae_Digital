@@ -34,15 +34,15 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <p align="justify">
 <strong>Internal data sources provided by the company:</strong>
   <ul style="text-align: justify;">
-   <li>Store table – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/Lojas.csv" download>Lojas (Excel file)</a></li>
-  <li>Sales volume of climate control equipment per store – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/VolumeVendas.csv" download>Excel file “VolumeVendas”</li>
-  <li>Quantities of products sold per store – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/quant_vendida.csv" download>Excel file “quant_vendida”</li>
-  <li>Fixed costs per store related to the maintenance of sales spaces for these products – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/custosfixos.csv" download>Excel file “custosfixos”</li>
+   <li>Store table – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/Lojas.csv" download>Lojas (Excel file)</a></li>
+  <li>Sales volume of climate control equipment per store – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/VolumeVendas.csv" download>Excel file “VolumeVendas”</li>
+  <li>Quantities of products sold per store – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/quant_vendida.csv" download>Excel file “quant_vendida”</li>
+  <li>Fixed costs per store related to the maintenance of sales spaces for these products – <a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/custosfixos.csv" download>Excel file “custosfixos”</li>
   <li>Indication that the selling price is always 33% above the cost price.</li>
   </ul>
 </p>
 
-
+https://github.com/David-Nogueira/Steam_Games_2013_to_2023-R_Project-Cesae_Digital/raw/main/Steam%20Games%202013%20to%202023%20-%20R%20Project%20-%20Cesae%20Digital.R
 
 <ul style="text-align: justify;">
   <li><strong>Table with actual values:</strong></li>
