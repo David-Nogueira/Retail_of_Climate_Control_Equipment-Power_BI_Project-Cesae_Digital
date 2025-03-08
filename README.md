@@ -42,6 +42,8 @@ The goal of the analysis is to determine whether more extreme weather conditions
   </ul>
 </p>
 
+<li>Store table – <a href="https://raw.githubusercontent.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/main/Lojas.csv" download="Lojas.csv">Download Lojas (CSV file)</a></li>
+
 https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/blob/main/Lojas.csv
 
 
