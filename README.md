@@ -187,6 +187,34 @@ Analysing the regions with the lowest resident population, which are Madeira and
   <img src="https://github.com/user-attachments/assets/26c5c152-2a9f-4cb7-a610-c771bd204005" width="30%">
 </p>
 
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.2+-+Note+that+the+Purchasing+Power+scale+is+based+on+the+index+100.+In+other+words,+a+value+above+100+indicates" alt="Typing SVG" />
+</a>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=+that+the+municipality+has+a+purchasing+power+higher+than+the+national+average+(100).+How+can+this+measurement/" alt="Typing SVG" />
+</a>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=+scale+be+applied+to+other+variables?" alt="Typing SVG" />
+</a>
+
+<p align="justify">
+To apply this scale/measurement to other variables, the following procedure should be followed:
+</p>
+
+<ul align="justify">
+<li>Select the variable of interest for analysis (e.g., fixed cost per store).</li><br><br>
+  
+<li>Calculate the total average of the variable – this corresponds to the index 100 (e.g., average fixed costs per store).</li><br><br>
+
+<li>Perform a simple rule of three (example for fixed costs):<br>
+Average fixed costs ↔ 100%<br>
+Fixed costs of the store ↔ X<br>
+X = (Fixed costs of the store * 100) / Average fixed costs
+</li><br><br>
+
+<li>Draw conclusions, considering that values below 100% are below the average and vice versa. Therefore, the further the percentage value is from 100%, the greater the deviation. In this example, a store with fixed costs above 100% will need to reduce expenses, while a store below the average value has greater financial flexibility in terms of fixed costs.</li>
+</ul>
+
 <h2 align="left">
 </h2>
 
