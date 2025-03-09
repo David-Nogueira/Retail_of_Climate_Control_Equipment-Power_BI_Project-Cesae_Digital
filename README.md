@@ -28,7 +28,7 @@ The original report was written in <strong>European Portuguese</strong>, as was 
 
 <p align="justify">
 A major home appliances retailer aims to analyse the performance of its stores in the sale of climate control equipment, cross-referencing this data with contextual factors such as regional climate conditions and purchasing power.<br>
-The goal of the analysis is to determine whether more extreme weather conditions favor the sale of items in certain locations or if purchasing power and population size are the primary factors influencing sales success or failure. 
+The goal of the analysis is to determine whether more extreme weather conditions favour the sale of items in certain locations or if purchasing power and population size are the primary factors influencing sales success or failure. 
 </p>
 
 <p align="justify">
@@ -54,6 +54,18 @@ The goal of the analysis is to determine whether more extreme weather conditions
 
 <p align="justify">
 <strong>Note</strong>: The Excel files were extracted from the Pordata website. However, one of the links is no longer active, so I have included the extracted files from the site for reference.
+</p>
+
+<p align="justify">
+<strong>Suggestions:</strong><br>
+There are multiple approaches to this analysis, so the following recommendations may apply in some cases but not all:
+  <ul align="justify">
+  <li>Import all data sources into the same Power BI project</li>
+  <li>Rename all tables, columns, and transformations to ensure project clarity</li>
+  <li>Remove unnecessary columns and rename others</li>
+  <li>Transform and structure the data correctly (e.g., climate table, region and municipality tables, etc.)</li>
+  <li>Relate all data sources and apply necessary transformations to establish meaningful connections.</li>
+  </ul>
 </p>
 
 <p align="justify">
@@ -94,8 +106,8 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <strong>Influence of Climatic Conditions on Sales by Region:</strong>
   <ul align="justify">
   <li><ins>Maximum Night Temperature</ins>:</li>
-  The region with the highest average sales is Alentejo, which has the second-lowest night temperature (10,4 ºC). However, the second and third regions with the highest 
-  average sales are Madeira and the Azores, which have the highest night temperature values (16,9 ºC for Madeira and 15,6 ºC for the Azores). Therefore, it is concluded 
+  The region with the highest average sales is Alentejo, which has the second-lowest night temperature (10.4 ºC). However, the second and third regions with the highest 
+  average sales are Madeira and the Azores, which have the highest night temperature values (16.9 ºC for Madeira and 15.6 ºC for the Azores). Therefore, it is concluded 
   that the maximum night temperature does not influence sales volume, as the temperature difference between the first and second regions with the highest average sales 
   exceeds 6ºC.
   </ul>
@@ -108,7 +120,7 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <p align="justify">
   <ul align="justify">
   <li><ins>Maximum Daytime Temperature</ins>:</li>
-  The two regions with the highest sales volume are Alentejo and Madeira, which also have the highest daytime temperatures (23,5ºC in Alentejo and 22,5ºC in Madeira).<br>
+  The two regions with the highest sales volume are Alentejo and Madeira, which also have the highest daytime temperatures (23.5ºC in Alentejo and 22.5ºC in Madeira).<br>
   Even considering that the third region with the highest average sales volume, the Azores, has the second lowest daytime temperature, the data from Alentejo and Madeira 
   suggest that the higher the maximum daytime temperature, the greater the sales volume.<br>
   It is observed that the best-selling equipment in Alentejo is the Split Air Conditioner, which makes sense given that it is the region with the highest maximum daytime 
@@ -167,7 +179,7 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <p align="justify">
 <strong>Influence of Purchasing Power on Sales by Region:</strong><br>
 The purchasing power reference is the national average (100). When analysing the data, it is verified that the only region with above-average purchasing power is the Lisbon region. However, it is not the region with the highest average sales volume.<br>
-Thus, higher purchasing power does not necessarily mean a higher average sales volume. However, looking at the data from the regions with the lowest purchasing power, which are Madeira (87,20%) and the Azores (87,40%), it is verified that these regions are the second and third highest in average sales volume. Therefore, this further reinforces the conclusion that higher purchasing power is not related to a higher average sales volume.
+Thus, higher purchasing power does not necessarily mean a higher average sales volume. However, looking at the data from the regions with the lowest purchasing power, which are Madeira (87.20%) and the Azores (87.40%), it is verified that these regions are the second and third highest in average sales volume. Therefore, this further reinforces the conclusion that higher purchasing power is not related to a higher average sales volume.
 </p>
 
 <p align="center">
@@ -215,218 +227,101 @@ X = (Fixed costs of the store * 100) / Average fixed costs
 <li>Draw conclusions, considering that values below 100% are below the average and vice versa. Therefore, the further the percentage value is from 100%, the greater the deviation. In this example, a store with fixed costs above 100% will need to reduce expenses, while a store below the average value has greater financial flexibility in terms of fixed costs.</li>
 </ul>
 
-<h2 align="left">
-</h2>
-
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Business+Intelligence+Questions" alt="Typing SVG" />
-</a>
-
-<br>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=4.1+-+What+is+the+best-selling+game+over+the+years+(2013-2023)?" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.3+-+What+variables+can+you+include+in+a+regional+analysis?+And+at+the+municipal+level?" alt="Typing SVG" />
 </a>
 
 <p align="justify">
-This question is essential for understanding the popularity and commercial success of games on the Steam platform over time. Identifying the best-selling game can provide valuable insights into player preferences and market trends. Additionally, this information can be useful for game developers and investors when assessing the profit potential of new projects.<br>
-Since my dataset does not have a "sales" column, I analyzed the maximum number of owners, as each player had to acquire the game. However, some games are free (price = 0) but still highly profitable due to in-game transactions. Therefore, I divided this question into two analyses: one excluding free games and another including them.
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1e934e7f-852e-4dd1-8405-0779042b1ae6" width="60%" alt="New World">
-</p>
-
-<p align="justify">
-<strong>The best-selling game, excluding free games, is New World</strong>, with a total of <strong>one hundred million</strong> (100,000,000) players. By consulting the auxiliary table, it was found that the app_id corresponds to an MMO (Massively Multiplayer Online) game, <strong>where players cooperate but also compete against each other</strong> (PVP), and <strong>in-game transactions with real money are possible</strong>.<br>
-<strong>The price of $39.99 falls within the expected range</strong>, as most games from well-known developers have a launch price of $69.99 for franchises already popular among players.<br>
-<strong>Player feedback</strong> for this game <strong>is mostly positive</strong> (154,914) compared to negative (73,900). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to in-game transactions disrupting the balance of player-versus-player fights</strong> <sup>[1]</sup>.
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/56e6a0b9-629c-41d2-835d-44e79cc632c2" width="60%" alt="Dota 2">
-</p>
-
-<p align="justify">
-<strong>The best-selling game, including free games, is Dota 2</strong>, with a total of <strong>two hundred million</strong> (200,000,000) <strong>players</strong>. By consulting the auxiliary table, it was found that the app_id corresponds to a game <strong>where players cooperate</strong> and where <strong>in-game transactions with real money are possible</strong>.<br>
-<strong>The game is free</strong> but includes in-game transactions and as <strong>it is a game from 2013, it already has a well-established community that pays for exclusive in-game content</strong>.<br>
-<strong>Player feedback</strong> for this game <strong>is overwhelmingly positive</strong> (1,477,153) compared to negative (300,437). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to the game's steep learning curve and the presence of players with inappropriate behavior in the community</strong> <sup>[2]</sup>.
+For this report, I focused the analysis on regions rather than municipalities, as my basis was the initial question regarding the possible influence of variables (climate, purchasing power, and resident population) on sales by region.<br>
+Nevertheless, I included a list of municipalities for the variables of purchasing power and resident population. This can be useful when deciding about where to open a new store within a region. It allows for identifying which municipality within a region has a higher or lower population and where purchasing power is stronger or weaker.<br>
+Even within a region, it is interesting to observe the differences in variables (fixed costs, sales) by store in each municipality, allowing for comparisons and conclusions that can support decision-making and the implementation of specific measures.
 </p>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=4.2+-+What+is+the+highest-priced+game+on+the+platform?" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.4+-+How+would+you+calculate+the+profit+margin+of+these+products+for+each+store?" alt="Typing SVG" />
 </a>
 
 <p align="justify">
-Knowing which game has the highest price on the Steam platform is important to understand the price range of games available. This can indicate whether there is a demand for premium games and whether players are willing to pay more for certain titles. Additionally, this information can be useful for consumers who wish to make informed decisions about their game purchases.
+To calculate the profit margin, I followed these steps:
 </p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/458394f0-097b-494a-a7b8-b535d8c8df2e" width="60%" alt="Aartform Curvy 3D 3.0">
-</p>
+<ul align="justify">
+<li>Calculate the total sales/selling price (sum of all sales of various products for each store).</li><br><br>
+  
+<li>Calculate the cost price of the product (selling price divided by 1.33), as we know that the selling price is always 33% above the cost price.</li><br><br>
 
-<p align="justify">
-<strong>The highest price on the Steam platform is $299.9, and it belongs to Artform Curvy 3D 3.0</strong>. Consulting the supporting table, the app_id corresponds to single-player games. As a result, I researched and found that <strong>it is not a game but a sculpting program for 3D artists</strong>. It is evident that this software has been around for over 10 years (<strong>since 2013</strong>), yet it has few users (max_owners=20,000). <strong>The feedback is mostly positive</strong> but small in volume (32 positive, 13 negative). The reason for <strong>the negative feedback is the high price in relation to the limited tools available in the program</strong> <sup>[3]</sup>.
-</p>
+<li>Calculate fixed costs (sum of store rent, materials, other expenses, and HR salaries).</li><br><br>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=4.3+-+Which+game+has+the+most+positive+feedback?" alt="Typing SVG" />
-</a>
-
-<p align="justify">
-Identifying the game with the most positive feedback can be helpful for players looking for high-quality gaming experiences. Additionally, for game developers, understanding what players value and appreciate in a game can guide the development of future projects and improve the overall quality of games released. This information can also be valuable for publishers and investors when assessing the potential success of a particular game.
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2460b257-8fe7-43c0-bce6-9e5f55064985" width="60%" alt="Dota 2">
-</p>
-
-<p align="justify">
-<strong>The game with the most positive feedback is Dota 2</strong>, with nearly one and a half million positive reviews. Dota 2 has already been mentioned in this project, as it also has the largest number of users (max_owners). This overwhelmingly positive feedback is due to it being a game with over 10 years of existence, during which it has built a strong community. Even after all this time, it continues to receive frequent updates. As a <strong>free-to-play game</strong>, it <strong>allows many players to try it out</strong>, enjoy the experience, and <strong>contribute to the feedback</strong> <sup>[2]</sup>.
-</p>
-
-<h2 align="left">
-</h2>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5+-+Business+Analytics+Questions" alt="Typing SVG" />
-</a>
-
-<br>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.1+-+Data+Correlation+Analysis" alt="Typing SVG" />
-</a>
-
-<p align="justify">
-<strong>Note</strong>: During the data cleaning process, two factors (minimum number of users and time to complete the game) were removed due to being incomplete and irrelevant for the analyses to be conducted.<br><br>
-To gain an overview of the data, I created a table and a correlation chart using the "square" method:
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5a6efd92-23f7-470d-8d2b-445cf8ccaf4d" width="70%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3edace34-47db-4e91-8ddf-e837d2cda628" width="45%">
-</p>
-
-<p align="justify">
-By analyzing the table and the data correlation chart:
-</p>
-
-<ul style="text-align: justify;">
-  <li><strong>The release date (release_date) and game categories (app_id)</strong> show the highest correlation of 0.904, within a range of 0 to 1.</li>
-  <li><strong>The maximum number of users (max_owners) and positive feedback (positive)</strong> show a correlation of 0.826.</li>
-  <li><strong>Negative feedback (negative) and positive feedback (positive)</strong> show a correlation of 0.714.</li>
-  <li><strong>The maximum number of users (max_owners) and negative feedback (negative)</strong> show a correlation of 0.660.</li>
-</ul>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.2+-+What+are+the+factors+that+most+affect+a+game's+sales?" alt="Typing SVG" />
-</a>
-
-<p align="justify">
-This question is crucial for understanding the main drivers behind game sales on the Steam platform. By analyzing various factors such as price, user reviews, release date, game genre, among others, it is possible to identify which of these factors have the greatest impact on sales. This can help developers, publishers, and investors make strategic decisions, such as setting appropriate prices, planning marketing campaigns, and guiding the development of new games.<br><br>
-<strong>Note</strong>: The dataset does not contain a sales column. To estimate sales, the maximum number of users (max_owners) was used, as these players had to acquire the games to play them.<br><br>
-For the analysis of the factors that most affect game sales, the fields with the highest correlation to the max_owners field were examined using a correlation table, and the best subsets were identified through a graphical representation.
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3a469a4f-2734-4303-ab29-47ae11f527e2" width="70%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a5e780c7-7734-4c41-b396-0c8ab697088d" width="40%">
-</p>
-
-<p align="justify">
-Using the table and the graph, it is observed that the fields with <strong>the highest correlation to the max_owners field are positive and negative feedback</strong>. Therefore, the factors that may influence this feedback will be analyzed later. Additionally, <strong>other fields of some importance include the release date (release_date) and the price (price)</strong>.<br><br>
-The reasons for the high correlation between positive feedback and the number of users, followed by the correlation with negative feedback, are as follows:
-</p>
-
-<ul style="text-align: justify;">
-<li><strong>Game Quality</strong>: Games that receive positive player reception tend to attract more users. If a game is well-received by the gaming community due to its gameplay, graphics, storyline, or other elements, it is more likely to draw a larger user base.</li>
-<li><strong>Recommendations and Reviews</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
-<li><strong>User Retention</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
-<li><strong>Buzz Marketing (Word of Mouth)</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
+<li>Calculate profit:</li>
 </ul>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c7c57bed-0c5f-41b7-ac44-5541c54d5b75" width="50%">
-</p>
-
-<p align="justify">
-While there is a correlation between positive feedback and the number of users, other factors not included in the analysis may also influence the user base. Additionally, the correlation between negative feedback and the number of users may indicate that games with low negative feedback also tend to attract more users (as observed in the decision tree, where 78% of users choose a game when it has low negative feedback).
+Profit = Selling price – Cost price – Fixed costs
 </p>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.3+-+According+to+a+set+of+factors,+will+the+game+receive+positive+feedback?" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.5+-+And+how+would+you+include+it+in+the+comparison+with+other+variables?" alt="Typing SVG" />
 </a>
 
 <p align="justify">
-This question aims to understand the key factors that influence users' positive feedback on a game. By analyzing a combination of factors such as price, user ratings, game genre, game duration, and others, it is possible to determine which characteristics lead to more positive feedback. This can be valuable for game developers, guiding the development process to create games that meet players' expectations and preferences, resulting in better reception and market success.<br>
-For the analysis of the factors that contribute to predicting whether a game will receive positive feedback, the fields with the highest correlation to the "positive" variable were examined using a correlation table.
+In the comparison with variables, it is through profit that it is possible to verify which stores are generating revenue (by presenting a positive profit value) and which ones will need possible restructuring (by presenting a negative profit value).<br>
+It is important to verify the factors associated with certain stores presenting negative profits. These being the selling price, the cost price, and fixed costs.<br>
+Regarding the selling price, the possibility would be to increase the percentage of 33%, but a calculated increase, taking into consideration that this price increase could lead to a decrease in the number of sales.<br>
+In the cost price, the possibility would be to change suppliers that offer lower prices, taking into consideration that the quality of the sold equipment remains the same. If there is a possibility of a quality change, it would be necessary to analyse the sales strategy. Whether it would be more profitable to sell lower-quality products at lower prices and attract more customers or to have good quality, higher prices, and fewer customers.<br>
+Analysing fixed costs, we would verify parameters such as store rent, materials, salaries, and others (which are not described in this example). In store rent, the possibility would be relocating the store to a place where rent is lower. But this location change would have several factors that might not be beneficial (renovations in the new space, loss of customers accustomed to the old location, and in the new location, there might be more competitor stores). In materials, it would be the reduction of quality or buying cheaper materials. In human resources, it would be the reduction of salaries or the reduction of the number of store employees.<br>
+Therefore, the management should focus on stores with negative profit and verify the referenced factors above that can be changed.
 </p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c902800d-41fd-48be-a630-9635ca511357" width="70%">
-</p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.6+-+What+tables+in+report+format+would+you+include+to+facilitate+data+understanding?" alt="Typing SVG" />
+</a>
 
 <p align="justify">
-This correlation table once again confirms the previously observed information, showing that positive feedback has a strong correlation with the <strong>max_owners</strong> field and negative feedback. The next most relevant factor is <strong>price</strong>.<br><br>
-Following this, a predictive model was built, which resulted in an R² value of:
+Tables are not the easiest elements to interpret, especially when they have many rows or columns. However, they are great for containing data that complement the information in graphs. Additionally, one of the ways to make tables more visible and useful is by applying filters according to the variable being analysed.<br>
+Considering the multiple line card as tables, in this work I used:<br>
+<ul align="justify">
+<li>On the first page, 5 multiple line cards showing the total sales, total quantities sold, total fixed costs, total profit, and total stores per region. Since there are only 7 regions under study, this type of visual element is easy to analyse and demonstrates the variation of parameters by region.</li><br>
+<li>On the second, third, and fourth pages, I used the table of average equipment sales by region. On these pages, the variable being studied is sales, where we analyse which, factors may have an influence. As such, I used this table to demonstrate how the average sales of equipment vary by region depending on climate (second page), purchasing power (third page), and resident population (fourth page).</li><br>
+<li>On the third page, I used a table of regions with their respective purchasing power values, even though there is a corresponding graph for the same parameters. On the fourth page, I applied the same reasoning for the resident population parameter. If I placed the corresponding values on each bar, the graph would become less readable.</li><br>
+<li>On the third and fourth pages, I included a multiple line card of the parameter to be analysed by the municipality. On the third page, it is purchasing power by municipality, and on the fourth page, it is the resident population by municipality. These cards are in list format, as they are useful for checking information from various municipalities within each region.</li><br>
+<li>On the fifth page, which refers to profit by region and by stores, I used two multiple line cards. One of the cards shows the stores and respective municipalities where profit was greater than €350000 (applying a filter so that this type of table does not become unreadable), to get an idea of the stores with the highest profit. The second card shows all stores and their respective municipalities where profit was negative, meaning stores that may need restructuring.</li>
+</ul>
+Thus, I find that the use of tables or graphs varies depending on the ease of interpretation for each person. Some people find it easier to interpret graphical representations, while others prefer detailed and organized data in tables. The most important thing is that the information and its interpretation reach the target audience effectively.
 </p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/125d0a79-e58e-4e16-a5f3-90759be56396" width="50%">
-</p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.7+-+How+many+report+pages+would+you+create?+For+what+purpose?" alt="Typing SVG" />
+</a>
 
 <p align="justify">
-A <strong>coefficient of determination (R²) of 0.754</strong> indicates that approximately <strong>75.4% of the variability</strong> in the response variable (<strong>positive feedback</strong>) can be explained by the model. This means that the model can capture and explaining a significant portion of the observed variability in players' positive feedback regarding games.<br>
-An R² of 0.754 is considered quite high and suggests that the model has a reasonably strong ability to predict positive feedback based on the given data. This can be interpreted as an indication that the factors considered in the model (such as negative feedback, price, etc.) have a strong relationship with players' positive feedback.<br>
-However, it is important to emphasize that <strong>R² alone does not determine the validity or quality of the model</strong>. Therefore, it is always crucial to conduct a more in-depth analysis, including the evaluation of other model performance metrics and the consideration of potential limitations in the data and modeling.<br><br>
-To support this evaluation, I created a <strong>table and a scatter plot</strong> comparing the predicted values to the actual values:
+I created 5 report pages, with the first being a summary and the other 4 focusing on the influence of certain parameters on variables.<br>
+On the first page, my goal was to summarize total sales, quantities sold, fixed costs, profit, and stores in each region, as well as the sum of these totals. This way, the target audience gains an understanding of the number of stores, sales, costs, and associated profits in each region.<br>
+On the second page, I included the parameters with the objective of answering whether sales are influenced by climatic conditions. To do this, I inserted the 6 climate condition parameters according to the average sales, along with a table to analyse the influence of climate on sales for each type of equipment.<br>
+The third page aims to determine whether purchasing power in each region and municipality influences sales.<br>
+The fourth page presents elements to assess the possible influence of the resident population on sales in each region and municipality.<br>
+The fifth page aims to show stores with negative profit, stores with the highest profit, and profit variation by region. This allows for identifying which regions and stores may require restructuring decisions.
 </p>
 
-<ul style="text-align: justify;">
-  <li><strong>Table with actual values:</strong></li>
-</ul>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e90d03a5-c52c-409c-b0b2-465a68e5366c" width="70%">
-</p>
-
-<ul style="text-align: justify;">
-  <li><strong>Table with predicted values:</strong></li>
-</ul>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/5022490c-70ca-41c2-a95f-6bb15541755c" width="60%">
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/880cc093-46eb-4efa-b4b4-ef6e95deaea1" width="60%">
-</p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=29&duration=1&pause=1&color=FF9900&repeat=false&width=1500&lines=3.8+-+What+graphs+would+you+use?" alt="Typing SVG" />
+</a>
 
 <p align="justify">
-By comparing the predicted <strong>positive feedback</strong> values with the actual values in the original dataset, it is evident that the values are <strong>close</strong>. The <strong>minimum</strong> value for both the actual and predicted feedback is <strong>0</strong>. The <strong>maximum actual</strong> positive feedback value is <strong>1477153</strong>, while the <strong>predicted maximum</strong> is <strong>1171197</strong>, resulting in a difference of 305956 between the actual and predicted maximum values. The <strong>average actual</strong> value is <strong>1046</strong>, whereas the <strong>predicted average</strong> is <strong>1058</strong>.<br><br>
-By analyzing the scatter plot, it is evident that the predicted values and actual values are close. However, some values are more dispersed and not as condensed.<br><br>
-<strong>Therefore, this model is good for predicting positive feedback for games, considering only that the maximum predicted value may not be as close to the actual value, tending to be lower than the real value.</strong><br><br>
-It is concluded that <strong>a game will receive positive feedback if</strong>:
+Graphs are highly useful visual elements as they make data interpretation easier. However, they can become unclear when too many variables are included, or when the chosen type of graph is not the most appropriate for the parameter being analysed.<br>
+On the second page, about climate, I used 6 graphs, one bar chart for each climate condition variable, where the average total sales varied according to the region and the climatic condition of that region.<br>
+On the third page, I used a bar chart showing purchasing power by region to identify which region has the highest purchasing power, as well as a pie chart for the total average sales by region.<br>
+On the fourth page, I also used a bar chart showing the resident population per region to see which region has the largest resident population, along with another pie chart for the total average sales by region.<br>
+On the fifth page, I used a pie chart for profit by region.<br>
+When only a few parameters were analysed, I used a pie chart, as it allows for quick interpretation.<br>
+When I had to introduce more variables, I used bar charts.<br>
+Ultimately, whether using a single graph with multiple parameters or multiple graphs for each parameter, the goal is for the interpretation of the analysed data to remain the same.
 </p>
-
-<ul style="text-align: justify;">
-<li><strong>It has many players</strong>, as the game will receive more positive feedback. This happens if the game becomes popular, and users are satisfied with the overall gaming experience.</li>
-<li><strong>It receives less negative feedback</strong>, suggesting an inverse relationship between user satisfaction and negative reviews.</li>
-<li><strong>Its price meets expectations</strong>. Higher-priced games may be perceived as offering greater value and, therefore, receive more positive feedback, provided they meet user expectations.</li>
-</ul>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=6+-+Share" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Share" alt="Typing SVG" />
 </a>
 
 <p style="text-align: justify;">
@@ -445,38 +340,6 @@ Additionally, the full report with all analyses and insights is available for do
 <ul align="justify">
 <li><a href="https://github.com/David-Nogueira/Steam_Games_2013_to_2023-R_Project-Cesae_Digital/raw/main/Steam%20Games%202013%20to%202023%20-%20R%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
 </ul>
-
-<h2 align="left">
-</h2>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7+-+Conclusion" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-With this R programming project on Steam platform games from 2013 to 2023, it was possible to gain valuable insights into the behavior of both games and users. The selected questions for analysis were fundamental in understanding various aspects of the online gaming market.<br><br>
-We began by identifying the best-selling game over the years, considering both paid and free games. Then, we determined the highest-priced games on the platform and identified the game with the most positive feedback, which allowed us to better understand player preferences.<br><br>
-One of the most important analyses was identifying the factors that most affect a game's sales. By exploring the correlation between different variables, such as positive feedback, negative feedback, price, and others, we were able to identify significant patterns that influence a game's commercial success on the platform.
-An additional question raised was whether, based on a set of factors, it would be possible to predict whether a game would receive positive feedback.<br><br>
-Despite the challenges encountered, such as the need for prior dataset cleaning (over 60,000 records cleaned and normalized in Excel, Power BI, and R) and the selection of appropriate models, including the use of rpart for decision tree construction instead of C50 and the analysis of R² and scatter plots (without using the ROC model) to assess the quality of the prediction model, we managed to reach relevant conclusions.<br><br>
-In conclusion, this project provided a comprehensive view of the Steam gaming market, demonstrating the importance of data analysis in understanding and decision-making in the digital entertainment sector. The findings and methodologies employed in this project can serve as a foundation for future analyses and for improving game development and commercialization strategies on the platform.
-</p>
-
-<h2 align="left">
-</h2>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=8+-+Bibliography" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-[1] Valve Corporation, New World, consulted on Abril 6, 2024:<br>
-https://store.steampowered.com/app/1063730/New_World/<br><br>
-[2] Valve Corporation, Dota 2, consulted on Abril 6, 2024:<br>
-https://store.steampowered.com/app/570/Dota_2/<br><br>
-[3] Valve Corporation, AartfromCurvy 3D 3.0, consulted on Abril 6, 2024:<br>
-https://store.steampowered.com/app/253670/Aartform_Curvy_3D_30/<br><br>
-</p>
 
 <h2 align="left">
 </h2>
