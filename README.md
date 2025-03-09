@@ -1,4 +1,4 @@
-<a id="top"></a> 
+<a id="top"></a>
 
 <p align="center" style="margin: 0;">
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=35&duration=1&pause=1&color=FF9900&repeat=false&center=true&vCenter=true&width=800&height=70&lines=Retail+of+Climate+Control+Equipment" alt="Typing SVG" />
@@ -324,22 +324,71 @@ Ultimately, whether using a single graph with multiple parameters or multiple gr
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Share" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
-The R script used in this project can be downloaded here:
+<p align="justify">
+Below is a preview of the report pages: 
+</p>
+
+<p align="center">
+<strong>Page 1 - Summary of Totals</strong>(sales, costs, profit, and stores by region).
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8e144d35-309e-4aaa-96f0-4670e016825d" width="80%">
+</p>
+
+<p align="center">
+<strong>Page 2: Influence of Climate on Sales</strong>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/39b4c9c9-fcb3-4fad-b0ce-cb5e27c92ab1" width="80%">
+</p>
+
+<p align="center">
+<strong>Page 3: Influence of Purchasing Power on Sales by Region</strong>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/971d59be-601d-4101-bc4c-79e43f1565aa" width="80%">
+</p>
+
+<p align="center">
+<strong>Page 4: Influence of Resident Population</strong>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c3d608c7-5127-47fe-8ce1-645e706bf52b" width="80%">
+</p>
+
+<p align="center">
+<strong>Page 5: Profit by Region</strong>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b738884d-14c9-4e7f-a16b-25c8ab8aec1c" width="80%">
+</p>
+
+<p align="justify">
+The Power BI file used in this project can be downloaded here:
 </p>
 
 <ul align="justify">
-<li><a href="https://github.com/David-Nogueira/Steam_Games_2013_to_2023-R_Project-Cesae_Digital/raw/main/Steam%20Games%202013%20to%202023%20-%20R%20Project%20-%20Cesae%20Digital.R" download>Click here to view the R file</a></li>
+<li><a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/Retail%20of%20Climate%20Control%20Equipment%20-%20Power%20BI%20Project%20-%20Cesae%20Digital.pbix" download>Click here to download the Power BI file</a></li>
 </ul>
 
-<p style="text-align: justify;">
-This file contains all the code used for data preparation, analysis, and visualization, allowing for review or adaptation as needed for future analyses.<br><br>
+<p align="justify">
 Additionally, the full report with all analyses and insights is available for download:
 </p>
 
 <ul align="justify">
-<li><a href="https://github.com/David-Nogueira/Steam_Games_2013_to_2023-R_Project-Cesae_Digital/raw/main/Steam%20Games%202013%20to%202023%20-%20R%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
+<li><a href="https://github.com/David-Nogueira/Retail_of_Climate_Control_Equipment-Power_BI_Project-Cesae_Digital/raw/main/Retail%20of%20Climate%20Control%20Equipment%20-%20Power%20BI%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
 </ul>
+
+<h2 align="left">
+</h2>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5+-+Conclusion" alt="Typing SVG" />
+</a>
+
+<p align="justify">
+The analysis indicates that climatic conditions, particularly daytime temperature and humidity, have a significant impact on sales. However, purchasing power and the resident population are not determining factors. The evaluation of profit margins allows for the identification of stores that require adjustments to improve their financial performance.
+</p>
 
 <h2 align="left">
 </h2>
@@ -349,3 +398,5 @@ Additionally, the full report with all analyses and insights is available for do
     <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&center=true&vCenter=true&width=435&lines=Back+to+Top" alt="Typing SVG" />
   </a>
 </p>
+
+<a id="top"></a>
