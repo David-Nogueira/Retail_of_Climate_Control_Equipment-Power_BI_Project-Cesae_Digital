@@ -14,7 +14,7 @@
 
 <p align="justify">
 This project was developed as part of the <strong>Data Analyst course at CESAE Digital</strong>, aiming to consolidate knowledge in Power BI through data analysis and visualization.<br>
-The proposed challenge involved analyzing the <strong>sales performance of climate control equipment</strong> for a major retailer, combining internal data, such as sales volume and operational costs, with external data, such as climate conditions and purchasing power by region.<br>
+The proposed challenge involved analysing the <strong>sales performance of climate control equipment</strong> for a major retailer, combining internal data, such as sales volume and operational costs, with external data, such as climate conditions and purchasing power by region.<br>
 Throughout the project, techniques for data injection, transformation, and combination were applied, along with the creation of measures to support data analysis and interpretation. The final goal was to understand which factors most influence sales success across different locations.<br>
 The original report was written in <strong>European Portuguese</strong>, as was the <strong>Power BI project</strong>, where table names, columns, and measures were kept in the original language. However, for portfolio purposes, the <strong>report</strong> has been <strong>restructured and translated into English</strong>.
 </p>
@@ -27,7 +27,7 @@ The original report was written in <strong>European Portuguese</strong>, as was 
 </a>
 
 <p align="justify">
-A major home appliances retailer aims to analyze the performance of its stores in the sale of climate control equipment, cross-referencing this data with contextual factors such as regional climate conditions and purchasing power.<br>
+A major home appliances retailer aims to analyse the performance of its stores in the sale of climate control equipment, cross-referencing this data with contextual factors such as regional climate conditions and purchasing power.<br>
 The goal of the analysis is to determine whether more extreme weather conditions favor the sale of items in certain locations or if purchasing power and population size are the primary factors influencing sales success or failure. 
 </p>
 
@@ -94,8 +94,8 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <strong>Influence of Climatic Conditions on Sales by Region:</strong>
   <ul align="justify">
   <li><ins>Maximum Night Temperature</ins>:</li>
-  The region with the highest average sales is Alentejo, which has the second-lowest night temperature (10.4 ºC). However, the second and third regions with the highest 
-  average sales are Madeira and the Azores, which have the highest night temperature values (16.9 ºC for Madeira and 15.6 ºC for the Azores). Therefore, it is concluded 
+  The region with the highest average sales is Alentejo, which has the second-lowest night temperature (10,4 ºC). However, the second and third regions with the highest 
+  average sales are Madeira and the Azores, which have the highest night temperature values (16,9 ºC for Madeira and 15,6 ºC for the Azores). Therefore, it is concluded 
   that the maximum night temperature does not influence sales volume, as the temperature difference between the first and second regions with the highest average sales 
   exceeds 6ºC.
   </ul>
@@ -108,7 +108,7 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <p align="justify">
   <ul align="justify">
   <li><ins>Maximum Daytime Temperature</ins>:</li>
-  The two regions with the highest sales volume are Alentejo and Madeira, which also have the highest daytime temperatures (23.5ºC in Alentejo and 22.5ºC in Madeira).<br>
+  The two regions with the highest sales volume are Alentejo and Madeira, which also have the highest daytime temperatures (23,5ºC in Alentejo and 22,5ºC in Madeira).<br>
   Even considering that the third region with the highest average sales volume, the Azores, has the second lowest daytime temperature, the data from Alentejo and Madeira 
   suggest that the higher the maximum daytime temperature, the greater the sales volume.<br>
   It is observed that the best-selling equipment in Alentejo is the Split Air Conditioner, which makes sense given that it is the region with the highest maximum daytime 
@@ -139,19 +139,53 @@ The goal of the analysis is to determine whether more extreme weather conditions
 <p align="justify">
   <ul align="justify">
   <li><ins>Rainy Days and Precipitation</ins>:</li>
-  As previously observed, the region with the highest average sales volume is Alentejo, followed by Madeira. It is verified that these are the regions with the lowest 
-  humidity percentages (Alentejo has 70% humidity and Madeira 71% humidity).<br>
-  Even considering that the third region with the highest average sales volume is the Azores, which has the highest humidity percentage. Based on the data from Alentejo and 
-  Madeira, it is observed that the lower the humidity percentage, the higher the sales volume.<br>
-  It is noted that the second most-sold equipment in Alentejo is dehumidifiers, which does not make sense as it is the region with the lowest percentage. Furthermore, 
-  Alentejo is the region with the highest average sales of dehumidifiers, despite being the region with the lowest humidity percentage.
+  The regions with the lowest number of rainy days and precipitation are Algarve, Alentejo, and Madeira. Given that the latter two are the regions with the highest average    sales volume, it is verified that the fewer the rainy days and the lower the precipitation, the higher the average sales volume. Even considering that the third region      with the highest average sales volume is the Azores, which has the highest number of rainy days and the highest precipitation value.<br>
+  It is verified that there is no influence of rainy days and precipitation on the type of equipment sold. This is because Madeira, despite having low precipitation values    and rainy days, has a high average value of heat pump sales, and Alentejo, despite having low values of rainy days and precipitation, shows high average sales values for    fireplaces, stoves, and dehumidifiers.
   </ul>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1931dcf6-68f1-4479-95c5-214feff8fa20" width="50%">
+  <img src="https://github.com/user-attachments/assets/dccbce21-bfda-42b6-b4f6-5a1c84e439f3" width="90%">
 </p>
 
+<p align="justify">
+  <ul align="justify">
+  <li><ins>Sunlight Hours</ins>:</li>
+  The region with the fewest sunlight hours is the Azores, with 1971 hours, and the region with the most sunlight hours is the Algarve, which has 3212 hours. The 
+  referenced regions are not the ones with the highest average sales volumes. However, since the Algarve has the highest sunlight hours and the lowest average sales 
+  values, it can be concluded that the more sunlight hours there are, the lower the average sales volume.<br>
+  Regarding the influence of the number of sunlight hours on the average sales of each type of equipment, it is not conclusive. This is because the Algarve, despite having 
+  the highest number of hours, has a heating device as the best-selling equipment, namely fireplaces and stoves. However, in the Azores, which has the fewest sunlight 
+  hours, the best-selling equipment is multi-split air conditioners, which makes sense due to the lack of sunlight.
+  </ul>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/04701888-2ed5-49fb-82ba-59f6d7a6ee45" width="50%">
+</p>
+
+<p align="justify">
+<strong>Influence of Purchasing Power on Sales by Region:</strong><br>
+The purchasing power reference is the national average (100). When analysing the data, it is verified that the only region with above-average purchasing power is the Lisbon region. However, it is not the region with the highest average sales volume.<br>
+Thus, higher purchasing power does not necessarily mean a higher average sales volume. However, looking at the data from the regions with the lowest purchasing power, which are Madeira (87,20%) and the Azores (87,40%), it is verified that these regions are the second and third highest in average sales volume. Therefore, this further reinforces the conclusion that higher purchasing power is not related to a higher average sales volume.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1c464f61-8402-4aad-b272-66fdc9ff5310" width="30%">
+  <img src="https://github.com/user-attachments/assets/8bd805b8-0069-4300-8b51-c1ed2d64adf8" width="50%">
+</p>
+
+<p align="justify">
+<strong>Influence of Resident Population on Sales by Region:</strong><br>
+When analysing the data, it is verified that the region with the highest resident population is the North. However, it is not the region with the highest average sales volume. However, the North having the highest resident population justifies being the region with the highest number of stores (22) and consequently, as expected, having the highest total sales.
+It is important to highlight that for parameter comparisons between regions, average sales values were used, as it would not make sense to use total sales values when the number of stores per region is not equal.
+Analysing the regions with the lowest resident population, which are Madeira and the Azores, and relating the fact that these same regions are the second and third with the highest average sales value, it further reinforces the conclusion that a higher resident population does not mean a higher average sales volume.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/15362d5b-1216-41f9-ba29-b7972c7be662" width="50%">
+  <img src="https://github.com/user-attachments/assets/26c5c152-2a9f-4cb7-a610-c771bd204005" width="30%">
+</p>
 
 <h2 align="left">
 </h2>
